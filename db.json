@@ -1,0 +1,44 @@
+{
+  "logs": [
+    {"id": "1", "timestamp": "2025-04-01T12:00:00Z", "endpoint": "/users", "status": "success", "response_time": 200, "error_type": null},
+    {"id": "2", "timestamp": "2025-04-01T12:05:00Z", "endpoint": "/products", "status": "error", "response_time": 350, "error_type": "404 Not Found"},
+    {"id": "0952", "timestamp": "2025-04-01T09:51:10Z", "endpoint": "/products", "status": "success", "response_time": 207, "error_type": null},
+    {"id": "291d", "timestamp": "2025-04-01T09:51:13Z", "endpoint": "/orders", "status": "error", "response_time": 331, "error_type": null},
+    {"id": "5a08", "timestamp": "2025-04-01T09:51:14Z", "endpoint": "/login", "status": "success", "response_time": 100, "error_type": null},
+    {"id": "19fb", "timestamp": "2025-04-01T09:51:15Z", "endpoint": "/checkout", "status": "error", "response_time": 342, "error_type": "500 Internal Server Error"},
+    {"id": "5639", "timestamp": "2025-04-01T09:51:16Z", "endpoint": "/checkout", "status": "error", "response_time": 152, "error_type": "500 Internal Server Error"},
+    {"id": "9ed1", "timestamp": "2025-04-01T09:51:17Z", "endpoint": "/orders", "status": "success", "response_time": 232, "error_type": null},
+    {"id": "87f8", "timestamp": "2025-04-01T09:51:20Z", "endpoint": "/checkout", "status": "success", "response_time": 309, "error_type": null},
+    {"id": "4654", "timestamp": "2025-04-01T09:51:23Z", "endpoint": "/orders", "status": "success", "response_time": 174, "error_type": null},
+    {"id": "398e", "timestamp": "2025-04-01T09:51:24Z", "endpoint": "/products", "status": "error", "response_time": 224, "error_type": "500 Internal Server Error"},
+    {"id": "b610", "timestamp": "2025-04-01T09:51:27Z", "endpoint": "/checkout", "status": "error", "response_time": 270, "error_type": null},
+    {"id": "9364", "timestamp": "2025-04-01T09:54:28Z", "endpoint": "/users", "status": "success", "response_time": 377, "error_type": null},
+    {"id": "ab64", "timestamp": "2025-04-01T09:54:30Z", "endpoint": "/checkout", "status": "error", "response_time": 242, "error_type": null},
+    {"id": "2b24", "timestamp": "2025-04-01T09:54:32Z", "endpoint": "/orders", "status": "success", "response_time": 352, "error_type": null},
+    {"id": "c423", "timestamp": "2025-04-01T09:54:33Z", "endpoint": "/login", "status": "error", "response_time": 483, "error_type": "500 Internal Server Error"},
+    {"id": "bad7", "timestamp": "2025-04-01T09:54:35Z", "endpoint": "/orders", "status": "success", "response_time": 342, "error_type": null},
+    {"id": "0671", "timestamp": "2025-04-01T09:54:37Z", "endpoint": "/products", "status": "success", "response_time": 184, "error_type": null},
+    {"id": "3e3e", "timestamp": "2025-04-01T09:54:38Z", "endpoint": "/checkout", "status": "success", "response_time": 218, "error_type": null},
+    {"id": "4332", "timestamp": "2025-04-01T09:54:41Z", "endpoint": "/login", "status": "success", "response_time": 166, "error_type": null},
+    {"id": "b78f", "timestamp": "2025-04-01T09:54:44Z", "endpoint": "/login", "status": "success", "response_time": 142, "error_type": null},
+    {"id": "755e", "timestamp": "2025-04-01T09:54:45Z", "endpoint": "/login", "status": "success", "response_time": 253, "error_type": null},
+    {"id": "new1", "timestamp": "2025-04-01T10:00:00Z", "endpoint": "/cart", "status": "success", "response_time": 180, "error_type": null},
+    {"id": "new2", "timestamp": "2025-04-01T10:01:00Z", "endpoint": "/payments", "status": "error", "response_time": 400, "error_type": "402 Payment Required"},
+    {"id": "new3", "timestamp": "2025-04-01T10:02:00Z", "endpoint": "/reviews", "status": "success", "response_time": 220, "error_type": null},
+    {"id": "new4", "timestamp": "2025-04-01T10:03:00Z", "endpoint": "/profile", "status": "success", "response_time": 150, "error_type": null},
+    {"id": "new5", "timestamp": "2025-04-01T10:04:00Z", "endpoint": "/search", "status": "error", "response_time": 300, "error_type": "503 Service Unavailable"}
+  ],
+  "requests": [
+    {"id": "1", "method": "GET", "endpoint": "/users", "status": "success", "response_time": 200},
+    {"id": "2", "method": "POST", "endpoint": "/login", "status": "error", "response_time": 500}
+  ],
+  "status": {
+    "uptime": "99.9%",
+    "active_users": 1200,
+    "error_rate": "0.02%"
+  },
+  "health": {
+    "status": "ok",
+    "timestamp": "2025-04-09T10:00:00Z"
+  }
+}
