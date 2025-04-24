@@ -1,10 +1,11 @@
 # Application Monitoring Dashboards
 
 ## Overview
-Monitors application logs using Kafka, MySQL, and Grafana.
+Monitors application logs using Kafka,Zookeeper, MySQL, and Grafana.
 
 ## Setup
 - Run: `docker-compose up --build`
+- Run: 'node producer.js'(in other terminal)
 - Grafana: `http://localhost:3000` 
 
 ## Dashboards
